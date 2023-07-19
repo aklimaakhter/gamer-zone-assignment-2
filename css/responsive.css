@@ -47,5 +47,8 @@
         width: 100%;
         
     }
+    .games-btn-items{
+        grid-template-columns: repeat(3, 1fr);
+    }
     
 }
