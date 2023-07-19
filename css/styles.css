@@ -248,14 +248,42 @@ nav {
     width: 120px;
     height: 90px;
     font-weight: 700;
-    /* background-image: url('../images/play-icon1.png'); 
-    background-size: cover; */
     visibility: hidden;
   }
   .img-container:hover .watch-now {
     visibility: visible;
   }
-  
-
 
 /* Online games styles end here */
+/* play games styles start here */
+.play-games-container{
+    max-width: 80%;
+    margin: 0 auto;
+    min-height: 50px;
+    display: flex;
+}
+.play-games-img{
+    width: 50%;
+    position: relative;
+}
+.play-games-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.play-games-img .sub-img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 80%;
+    left: 85%;
+}
+.play-games-content{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+/* play games styles end here */

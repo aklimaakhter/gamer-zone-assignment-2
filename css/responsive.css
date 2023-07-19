@@ -35,5 +35,17 @@
     .card{
         width: 100%;
     }
+    .play-games-container{
+        flex-direction: column-reverse;
+    }
+    .play-games-content{
+        width: 100%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .play-games-img{
+        width: 100%;
+        
+    }
     
 }
