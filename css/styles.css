@@ -188,7 +188,7 @@ nav {
     width: 80%;
     margin: 0 auto;
     min-height: 50px;
-    border: 2px solid red;
+   
 }
 
 .games-card-container {
@@ -207,14 +207,55 @@ nav {
     
 }
 
-.card:hover {
+/* .card:hover {
     border-radius: 16px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-        
     background-blend-mode: overlay;
-    background-color: red;
-   
-}
+} */
+.img-container {
+    position: relative;
+    display: inline-block; 
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/play-icon1.png'); 
+    background-size: cover;
+    visibility: hidden;
+  }
+  
+  .img-container:hover .play-button {
+    visibility: visible;
+  }
+  .watch-now{
+    color: #F948B2;
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 90px;
+    font-weight: 700;
+    /* background-image: url('../images/play-icon1.png'); 
+    background-size: cover; */
+    visibility: hidden;
+  }
+  .img-container:hover .watch-now {
+    visibility: visible;
+  }
+  
 
 
 /* Online games styles end here */
