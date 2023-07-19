@@ -1,0 +1,22 @@
+/* For mobile device */
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+        
+    }
+    .logo-container{
+        justify-content: center;
+    }
+
+    .nav-item-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-item-container a {
+        margin: 30px 0;
+    }
+    .menu-icon {
+       width: 250px;
+    }
+    
+}
