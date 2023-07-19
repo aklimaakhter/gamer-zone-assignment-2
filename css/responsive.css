@@ -1,14 +1,12 @@
 /* For mobile device */
 @media screen and (max-width:576px) {
-    .nav-container {
+    .nav-container{
         flex-direction: column;
-        
     }
     .logo-container{
         justify-content: center;
     }
-
-    .nav-item-container {
+    .nav-item-container{
         flex-direction: column;
         width: 100%;
     }
@@ -17,6 +15,25 @@
     }
     .menu-icon {
        width: 250px;
+    }
+    .banner-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-content {
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .btn-primary{
+        margin: 20px 0px;
+    }
+    .games-card-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
     }
     
 }
