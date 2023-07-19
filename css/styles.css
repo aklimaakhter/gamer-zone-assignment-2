@@ -198,7 +198,7 @@ nav {
 
 .games-card-container {
     display: flex;
-    /* width: 100%; */
+    
 }
 
 .card {
@@ -213,9 +213,6 @@ nav {
 }
 
 .card:hover {
-    /* border-radius: 16px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-    background-blend-mode: overlay; */
     box-shadow: 0px 0px 8px grey;
     border-radius: 8px;
     padding: 5px;
@@ -265,6 +262,8 @@ nav {
 }
 
 /* Online games styles end here */
+
+
 /* play games styles start here */
 .play-games-container {
     max-width: 80%;
@@ -298,10 +297,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 /* play games styles end here */
+
 /* Games button item styles start here */
 .games-button-item-container {
     max-width: 80%;
@@ -391,9 +391,7 @@ footer {
     gap: 30px;
     font-size: 50px;
 }
-/* .fa-brands .fa-solid{
-    font-size: 50px;
-} */
+
 .footer-condition{
     width: 55%;
     margin: 0 auto;
