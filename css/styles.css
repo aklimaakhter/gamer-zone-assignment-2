@@ -31,16 +31,16 @@ nav {
     width: 50%;
     display: flex;
     align-items: center;
-    
+
 }
 
 .logo-container img {
-    width: 85px;
+    width: 80px;
     margin-right: 20px;
 }
 
 .logo-container .nav-title {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
 }
 
@@ -69,7 +69,7 @@ nav {
     padding: 16px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .menu-icon .youtube {
@@ -79,3 +79,77 @@ nav {
 
 
 /* Nav styles end here */
+
+/* Banner styles start here */
+.banner-container {
+    max-width: 80%;
+    margin: 0 auto;
+    min-height: 50px;
+    border: 2px solid #F61C0D;
+    display: flex;
+}
+
+.banner-content {
+    width: 50%;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-content h2 {
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.banner-content-description{
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.banner-content p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding: 5px 0px;
+   
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #FF42A5;
+    padding: 15px 30px;
+    border: none;
+    margin-right: 10px;
+}
+
+ .btn {
+    background: #4EC5F7;
+}
+
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Banner styles end here */
