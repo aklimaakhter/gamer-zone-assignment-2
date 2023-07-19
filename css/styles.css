@@ -123,6 +123,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
@@ -176,6 +177,7 @@ nav {
 
 .banner-img {
     width: 50%;
+   
 }
 
 .banner-img img {
@@ -210,11 +212,14 @@ nav {
 
 }
 
-/* .card:hover {
-    border-radius: 16px;
+.card:hover {
+    /* border-radius: 16px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-    background-blend-mode: overlay;
-} */
+    background-blend-mode: overlay; */
+    box-shadow: 0px 0px 8px grey;
+    border-radius: 8px;
+    padding: 5px;
+}
 .img-container {
     position: relative;
     display: inline-block;
@@ -308,10 +313,12 @@ nav {
 }
 
 .games-btn-items {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
+    align-items: center;
     gap: 20px;
+    padding: 20px;
 }
 
 .btn-item {
