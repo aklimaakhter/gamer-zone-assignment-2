@@ -203,13 +203,22 @@ nav {
 
 .card {
     width: 23%;
-    height: 400px;
-    margin: 40px auto 0px;
+    height: 450px;
+    margin: 20px auto ;
+    text-align: center;
+    
 }
 
 .card img {
     width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
 
+
+}
+.card p{
+    padding-top: 40px;
 }
 
 .card:hover {
@@ -299,6 +308,9 @@ nav {
     justify-content: center;
     margin-left: 100px;
 }
+.play-games-content h2 {
+    padding-left: 15px;
+}
 
 /* play games styles end here */
 
@@ -315,6 +327,8 @@ nav {
 .games-btn-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    /* display: flex;
+    flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -403,5 +417,11 @@ footer {
     
 }
 .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #FFF;
+}
+.hide{
+    display: none;
 }
