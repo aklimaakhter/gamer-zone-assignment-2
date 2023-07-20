@@ -197,13 +197,15 @@ nav {
 }
 
 .games-card-container {
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+   
 }
 
 .card {
-    width: 23%;
-    height: 450px;
+    
+    height: 300px;
     margin: 20px auto ;
     text-align: center;
     
@@ -218,7 +220,7 @@ nav {
 
 }
 .card p{
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .card:hover {
@@ -327,19 +329,17 @@ nav {
 .games-btn-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* display: flex;
-    flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .btn-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 5px 0px;
     border: 0;
     background-color: transparent;
 
@@ -399,12 +399,16 @@ footer {
 .footer-icon{
     width: 30%;
     margin: 0 auto;
-    color: #FFF;
+   
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 30px;
     font-size: 50px;
 }
+.footer-icon a{
+    color: #FFF;
+}
+
 
 .footer-condition{
     width: 55%;
