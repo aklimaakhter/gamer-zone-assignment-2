@@ -66,8 +66,15 @@
     }
 
     .play-games-img {
-        width: 100%;
+        width: 90%;
 
+    }
+    .play-games-img .sub-img {
+        width: 120px;
+        height: auto;
+        position: absolute;
+        top: 65%;
+        left: 85%;
     }
 
     .card:hover {
@@ -192,8 +199,15 @@
     }
 
     .play-games-img {
-        width: 100%;
+        width: 90%;
 
+    }
+    .play-games-img .sub-img {
+        width: 150px;
+        height: auto;
+        position: absolute;
+        top: 85%;
+        left: 85%;
     }
 
     .card:hover {
