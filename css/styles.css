@@ -123,7 +123,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -177,7 +177,7 @@ nav {
 
 .banner-img {
     width: 50%;
-   
+
 }
 
 .banner-img img {
@@ -200,26 +200,27 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-   
+
 }
 
 .card {
-    
+
     height: 300px;
-    margin: 20px auto ;
+    margin: 20px auto;
     text-align: center;
-    
+
 }
 
 .card img {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    
+
 
 
 }
-.card p{
+
+.card p {
     padding-top: 20px;
 }
 
@@ -228,15 +229,26 @@ nav {
     border-radius: 8px;
     padding: 5px;
 }
+
 .img-container {
     position: relative;
     display: inline-block;
 }
 
-.image {
-    display: block;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
 }
 
 .play-button {
@@ -253,6 +265,7 @@ nav {
 
 .img-container:hover .play-button {
     visibility: visible;
+
 }
 
 .watch-now {
@@ -281,7 +294,7 @@ nav {
     margin: 0 auto;
     min-height: 50px;
     display: flex;
-    
+
 }
 
 .play-games-img {
@@ -310,6 +323,7 @@ nav {
     justify-content: center;
     margin-left: 100px;
 }
+
 .play-games-content h2 {
     padding-left: 15px;
 }
@@ -362,8 +376,9 @@ footer {
     background: #0B0223;
     text-align: center;
 }
-.footer-container{
-   padding-top: 120px;
+
+.footer-container {
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -379,13 +394,14 @@ footer {
     font-weight: 700;
     color: #FFF;
     margin-left: 20px;
-    
+
 }
 
 .footer-container span {
     color: #FF42A5;
 }
-.footer-text-items{
+
+.footer-text-items {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     width: 50%;
@@ -393,24 +409,27 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.footer-text{
+
+.footer-text {
     color: #FFF;
 }
-.footer-icon{
+
+.footer-icon {
     width: 30%;
     margin: 0 auto;
-   
+
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 30px;
     font-size: 50px;
 }
-.footer-icon a{
+
+.footer-icon a {
     color: #FFF;
 }
 
 
-.footer-condition{
+.footer-condition {
     width: 55%;
     margin: 0 auto;
     color: #FFF;
@@ -418,14 +437,16 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     padding-top: 50px;
     padding-bottom: 28px;
-    
+
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #FFF;
 }
-.hide{
+
+.hide {
     display: none;
 }
